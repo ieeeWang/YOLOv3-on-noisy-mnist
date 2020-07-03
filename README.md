@@ -1,9 +1,11 @@
 # TensorFlow-2.x-YOLOv3 tutorial
 
-YOLOv3 implementation in TensorFlow 2.x, with support for training, transfer training.
+YOLOv3 implementation in TensorFlow 2.x, for transfer training.
+A tiny model was re-trained for detect mnist dataset in Gaussian additive noise.
 
 ## Installation
 First, clode or download this GitHub repository.
+
 Install requirements and download pretrained weights:
 ```
 pip install -r ./requirements.txt
@@ -63,22 +65,3 @@ To get detailed instructions how to use Yolov3-Tiny, follow my text version tuto
 - Get YOLOv3-Tiny weights: ```wget -P model_data https://pjreddie.com/media/files/yolov3-tiny.weights```
 - From `yolov3/configs.py` change `TRAIN_YOLO_TINY` from `False` to `True`
 - Run `detection_demo.py` script.
-
-
-To be continued...
---------------------
-- [x] Detection with original weights [Tutorial link](https://pylessons.com/YOLOv3-TF2-introduction/)
-- [x] Mnist detection training [Tutorial link](https://pylessons.com/YOLOv3-TF2-mnist/)
-- [x] Custom detection training [Tutorial link1](https://pylessons.com/YOLOv3-TF2-custrom-train/), [link2](https://pylessons.com/YOLOv3-TF2-custrom-images/)
-- [x] Google Colab training [Tutorial link](https://pylessons.com/YOLOv3-TF2-GoogleColab/)
-- [x] YOLOv3-Tiny support [Tutorial link](https://pylessons.com/YOLOv3-TF2-Tiny/)
-- [ ] Object tracking
-- [ ] Converting to TensorFlow Lite
-- [ ] Yolo v3 on Raspberry v3
-- [ ] Yolo v3 on Android (Not sure about this)
-- [ ] Convert to TensorRT model
-- [ ] Generating anchors
-- [ ] Mean Average Precision (mAP)
-- [ ] YOLACT: Real-time Instance Segmentation
-- [ ] Model pruning (Pruning is a technique in deep learning that aids in the development of smaller and more efficient neural networks. It's a model optimization technique that involves eliminating unnecessary values in the weight tensor.)
-- [ ] Yolo v4
