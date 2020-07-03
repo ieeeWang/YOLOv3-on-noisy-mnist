@@ -29,7 +29,7 @@ python show_detect_performance.py.py
     <img width="100%" src="IMAGES/detect_digits.png" style="max-width:100%;"></a>
 </p>
 
-## Quick training for custom mnist dataset
+## Prepare a noisy mnist dataset
 mnist folder contains mnist images, create training data:
 ```
 python mnist/make_data.py
@@ -37,7 +37,7 @@ python mnist/add_noise2images.py
 ```
 You can change training hyperparameters here `./yolov3/configs.py`.
 
-## Custom Yolo v3 object detection training
+## Custom training of Yolo v3 object detection 
 I highly recommend that to train the following step on Google Colab (see the last section below).
 I did use my laptop with a GPU Quadro M1200 (computing power of 5), and it could fry eggs after 100 epochs training (~2 hours).
 ```
