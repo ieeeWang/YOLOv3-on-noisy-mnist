@@ -38,8 +38,9 @@ python mnist/add_noise2images.py
 You can change training hyperparameters here `./yolov3/configs.py`.
 
 ## Custom training of Yolo v3 object detection 
-I highly recommend that to train the following step on Google Colab (see the last section below).
-I did use my laptop with a GPU Quadro M1200 (computing power of 5), and it could fry eggs after 100 epochs training (~2 hours).
+I highly recommend to train the following step on Google Colab (see the last section below).
+
+I could use my laptop to fry eggs after 100 epochs training (~3 hours) with a GPU Quadro M1200 (computing power of 5).
 ```
 python train.py
 tensorboard --logdir=log
