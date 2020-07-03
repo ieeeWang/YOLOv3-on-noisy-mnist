@@ -19,10 +19,10 @@ wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 wget -P model_data https://pjreddie.com/media/files/yolov3-tiny.weights
 ```
 
-## Quick start
+## Quick demo
 Start with using pretrained weights to test predictions on both image and video:
 ```
-python show_detect_performance.py.py
+python show_detect_performance.py
 ```
 
 <p align="center">
