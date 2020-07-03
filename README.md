@@ -8,7 +8,7 @@ A tiny YOLO model was re-trained for detect mnist dataset in Gaussian additive n
 First, clode or download this GitHub repository.
 For Windows, put wget.exe under the project folder.
 
-Install requirements and download pretrained weights:
+Install requirements and download pretrained weights, CMD open console:
 ```
 pip install -r ./requirements.txt
 
@@ -43,7 +43,6 @@ I highly recommend to train the following step on Google Colab (see the last sec
 I could use my laptop to fry eggs after 100 epochs training (~3 hours) with a GPU Quadro M1200 (computing power of 5).
 ```
 python train.py
-tensorboard --logdir=log
 ```
 
 Test detection with `detect_mnist.py` script:
