@@ -26,7 +26,7 @@ python show_detect_performance.py.py
 ```
 
 <p align="center">
-    <img width="100%" src="IMAGES/detect_digits.png" style="max-width:100%;"></a>
+    <img width="200%" src="IMAGES/detect_digits.png" style="max-width:200%;"></a>
 </p>
 
 ## Prepare a noisy mnist dataset
