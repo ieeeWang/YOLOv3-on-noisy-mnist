@@ -51,7 +51,7 @@ python detect_mnist.py
 ```
 Results:
 <p align="center">
-    <img width="40%" src="IMAGES/mnist_test.jpg" style="max-width:40%;"></a>
+    <img width="40%" src="IMAGES/detect_digits_one.png" style="max-width:40%;"></a>
 </p>
 
 
