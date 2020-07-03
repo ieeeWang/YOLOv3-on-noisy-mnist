@@ -35,7 +35,7 @@ mnist folder contains mnist images, create training data:
 python mnist/make_data.py
 python mnist/add_noise2images.py
 ```
-`./yolov3/configs.py` file is already configured for mnist training.
+You can change training hyperparameters here `./yolov3/configs.py`.
 
 ## Custom Yolo v3 object detection training
 I highly recommend that to train the following step on Google Colab (see the last section below).
@@ -56,5 +56,5 @@ Results:
 
 
 ## Google Colab Custom Yolo v3 training
-To learn more about Google Colab Free gpu (free Tesla T4 with the computing power 7!) training, visit this [tutorial](https://pylessons.com/YOLOv3-TF2-GoogleColab/)
-and [notbook](./YOLOv3_colab_training.ipynb).
+To learn more about Google Colab Free gpu (Tesla T4 with the computing power 7!) training, visit this [tutorial](https://pylessons.com/YOLOv3-TF2-GoogleColab/)
+and demo [notebook](./YOLOv3_colab_training.ipynb) (for using Colab) in this project.
