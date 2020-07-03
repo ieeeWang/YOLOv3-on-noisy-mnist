@@ -1,16 +1,18 @@
-# TensorFlow-2.x-YOLOv3 tutorial
+# Yolo v3 Tiny for noisy mnist detection
 
 YOLOv3 implementation in TensorFlow 2.x, for transfer training.
-A tiny model was re-trained for detect mnist dataset in Gaussian additive noise.
+
+A tiny YOLO model was re-trained for detect mnist dataset in Gaussian additive noise.
 
 ## Installation
 First, clode or download this GitHub repository.
+For Windows, put wget.exe under the project foler.
 
 Install requirements and download pretrained weights:
 ```
 pip install -r ./requirements.txt
 
-# yolov3
+# yolov3 (not needed here)
 wget -P model_data https://pjreddie.com/media/files/yolov3.weights
 
 # yolov3-tiny
@@ -31,9 +33,13 @@ python detection_demo.py
 mnist folder contains mnist images, create training data:
 ```
 python mnist/make_data.py
+python mnist/add_noise2images.py
 ```
 `./yolov3/configs.py` file is already configured for mnist training.
 
+## Custom Yolo v3 object detection training
+Custom training required to prepare dataset first, how to prepare dataset and train custom model you can read in following link:<br>
+https://pylessons.com/YOLOv3-TF2-custrom-train/
 Now, you can train it and then evaluate your model
 ```
 python train.py
@@ -53,9 +59,6 @@ Results:
     <img width="40%" src="IMAGES/mnist_test.jpg" style="max-width:40%;"></a>
 </p>
 
-## Custom Yolo v3 object detection training
-Custom training required to prepare dataset first, how to prepare dataset and train custom model you can read in following link:<br>
-https://pylessons.com/YOLOv3-TF2-custrom-train/
 
 ## Google Colab Custom Yolo v3 training
 To learn more about Google Colab Free gpu training, visit my [text version tutorial](https://pylessons.com/YOLOv3-TF2-GoogleColab/)
