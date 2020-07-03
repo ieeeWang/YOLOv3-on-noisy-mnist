@@ -56,4 +56,5 @@ Results:
 
 
 ## Google Colab Custom Yolo v3 training
-To learn more about Google Colab Free gpu training, visit my [text version tutorial](https://pylessons.com/YOLOv3-TF2-GoogleColab/)
+To learn more about Google Colab Free gpu (free Tesla T4 with the computing power 7!) training, visit this [tutorial](https://pylessons.com/YOLOv3-TF2-GoogleColab/)
+and [notbook](./YOLOv3_colab_training.ipynb).
