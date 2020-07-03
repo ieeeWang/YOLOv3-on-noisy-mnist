@@ -6,7 +6,7 @@ A tiny YOLO model was re-trained for detect mnist dataset in Gaussian additive n
 
 ## Installation
 First, clode or download this GitHub repository.
-For Windows, put wget.exe under the project foler.
+For Windows, put wget.exe under the project folder.
 
 Install requirements and download pretrained weights:
 ```
@@ -38,17 +38,12 @@ python mnist/add_noise2images.py
 `./yolov3/configs.py` file is already configured for mnist training.
 
 ## Custom Yolo v3 object detection training
-Custom training required to prepare dataset first, how to prepare dataset and train custom model you can read in following link:<br>
-https://pylessons.com/YOLOv3-TF2-custrom-train/
-Now, you can train it and then evaluate your model
+I highly recommend that to train the following step on Google Colab (see the last section below).
+I did use my laptop with a GPU Quadro M1200 (computing power of 5), and it could fry eggs after 100 epochs training (~2 hours).
 ```
 python train.py
 tensorboard --logdir=log
 ```
-Track training progress in Tensorboard and go to http://localhost:6006/:
-<p align="center">
-    <img width="100%" src="IMAGES/tensorboard.png" style="max-width:100%;"></a>
-</p>
 
 Test detection with `detect_mnist.py` script:
 ```
@@ -62,9 +57,3 @@ Results:
 
 ## Google Colab Custom Yolo v3 training
 To learn more about Google Colab Free gpu training, visit my [text version tutorial](https://pylessons.com/YOLOv3-TF2-GoogleColab/)
-
-## Yolo v3 Tiny train and detection
-To get detailed instructions how to use Yolov3-Tiny, follow my text version tutorial [YOLOv3-Tiny support](https://pylessons.com/YOLOv3-TF2-Tiny/). Short instructions:
-- Get YOLOv3-Tiny weights: ```wget -P model_data https://pjreddie.com/media/files/yolov3-tiny.weights```
-- From `yolov3/configs.py` change `TRAIN_YOLO_TINY` from `False` to `True`
-- Run `detection_demo.py` script.
