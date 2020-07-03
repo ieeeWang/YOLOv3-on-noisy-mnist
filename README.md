@@ -26,7 +26,7 @@ python detection_demo.py
 ```
 
 <p align="center">
-    <img width="100%" src="IMAGES/city_pred.jpg" style="max-width:100%;"></a>
+    <img width="100%" src="IMAGES/detect_digits.png" style="max-width:100%;"></a>
 </p>
 
 ## Quick training for custom mnist dataset
