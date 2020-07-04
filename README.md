@@ -1,6 +1,4 @@
-# Yolo v3 Tiny for noisy mnist detection
-
-YOLOv3 implementation in TensorFlow 2.x, for transfer training.
+# Yolo v3 Tiny (TensorFlow 2.x) for noisy mnist detection
 
 It turns out the trained NN from clearn background basically does not work on noisy testset.
 In this project, a Yolo-v3-tiny model was re-trained (from mnist dataset in Gaussian additive noise) to detect ramdom digits in noisy backgrounds.
