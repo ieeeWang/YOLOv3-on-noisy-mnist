@@ -2,7 +2,8 @@
 
 YOLOv3 implementation in TensorFlow 2.x, for transfer training.
 
-A tiny YOLO model was re-trained for detect mnist dataset in Gaussian additive noise.
+It turns out the trained NN from clearn background basically does not work on noisy data testset.
+In this project, a tiny YOLO model was re-trained for detect mnist dataset in Gaussian additive noise.
 
 ## Installation
 First, clode or download this GitHub repository.
