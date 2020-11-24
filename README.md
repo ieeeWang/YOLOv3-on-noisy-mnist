@@ -2,6 +2,7 @@
 
 It turns out the trained NN from a clean background basically does not work on noisy testing set (even with only a little noise, e.g., mean = variance = 0.1). In this project, a Yolo-v3-tiny model was re-trained (from the mnist dataset with Gaussian additive noise) to detect random digits appearing in a noisy background.
 
+
 ## Installation
 First, clode or download this GitHub repository.
 For Windows, put wget.exe under the project folder.
