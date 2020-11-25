@@ -1,13 +1,4 @@
-#================================================================
-#
-#   File name   : train.py
-#   Author      : PyLessons
-#   Created date: 2020-06-03
-#   Website     : https://pylessons.com/
-#   GitHub      : https://github.com/pythonlessons/TensorFlow-2.x-YOLOv3
-#   Description : used to train custom object detector
-#
-#================================================================
+
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import shutil
