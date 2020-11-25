@@ -41,12 +41,12 @@ I highly recommend to train the following step on Google Colab (see the last sec
 
 I could use my laptop to fry eggs after 100 epochs training (~3 hours) with a GPU Quadro M1200 (computing power of 5).
 ```
-python train.py
+python train2.py
 ```
 
 Test detection with `detect_mnist.py` script:
 ```
-python detect_mnist.py
+python detect_mnist2.py
 ```
 Results:
 <p align="center">
